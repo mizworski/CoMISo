@@ -26,7 +26,7 @@ target_include_directories(CoMISo PUBLIC
 
 target_compile_definitions(CoMISo PUBLIC -DINCLUDE_TEMPLATES)
 
-find_package (Eigen3 3.3 REQUIRED NO_MODULE)
+find_package (Eigen3 3.4 REQUIRED NO_MODULE)
 target_link_libraries(CoMISo PUBLIC Eigen3::Eigen)
 
 # Generate position independent code
